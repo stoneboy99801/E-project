@@ -3,10 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: azure;
-      font-family: system-ui;
-}
+
 .logo img{
            width: 185px;
         margin:  15px;
@@ -14,6 +11,8 @@ body{
 }
 
 /* categoray-page open*/
+
+/* Drawing/Living Room Mirrors */
 .heading{
 display: flex;
 justify-content: center;
@@ -115,7 +114,7 @@ background-color: beige;
        width: 171px;
     height: 170px;
     border-radius: 14px;
-    object-fit: cover;
+    object-fit: fill;
     cursor: pointer;
      transition: transform 1s ease;
 }
@@ -129,6 +128,18 @@ background-color: beige;
   margin-left:30px ;
   
 }
+.img-8 img  {
+       width: 171px;
+    height: 170px;
+    border-radius: 14px;
+    object-fit: fill;
+    cursor: pointer;
+     transition: transform 1s ease;
+}
+.img-8:hover img {
+  transform: scale(1.1);
+}
+/* bathroom mirro open */
 .h2-1 h2{
  margin: 20px 30px;
 }
@@ -137,19 +148,20 @@ background-color: beige;
     height: 170px;
     margin-top: 18px;
     border-radius: 14px;
-    object-fit: cover;
+    object-fit: fill;
     cursor: pointer;
      transition: transform 1s ease;
 }
 .img-9:hover img {
   transform: scale(1.1);
 }
+
 .img-10 img  {
        width: 171px;
     height: 170px;
     margin-top: 18px;
     border-radius: 14px;
-    object-fit: cover;
+    object-fit: fill;
     cursor: pointer;
      transition: transform 1s ease;
 }
@@ -162,7 +174,7 @@ background-color: beige;
     margin-top: 18px;
     border-radius: 14px;
     cursor: pointer;
-    object-fit: cover;
+    object-fit: fill;
      transition: transform 1s ease;
 }
 .img-11:hover img {
@@ -173,7 +185,7 @@ background-color: beige;
     height: 170px;
     margin-top: 18px;
     border-radius: 14px;
-    object-fit: cover;
+    object-fit: fill;
      transition: transform 1s ease;
 }
 .img-12:hover img {
@@ -184,7 +196,7 @@ background-color: beige;
     height: 170px;
     margin-top: 18px;
     border-radius: 14px;
-    object-fit: cover;
+    object-fit: fill;
     cursor: pointer;
      transition: transform 1s ease;
 }
@@ -196,7 +208,7 @@ background-color: beige;
     height: 170px;
     margin-top: 18px;
     border-radius: 14px;
-    object-fit: cover;
+    object-fit: fill;
     cursor: pointer;
      transition: transform 1s ease;
 }
@@ -209,18 +221,137 @@ background-color: beige;
     margin-top: 18px;
     border-radius: 14px;
     cursor: pointer;
-    object-fit: cover;
+    object-fit: fill;
      transition: transform 1s ease;
 }
 .img-15:hover img {
   transform: scale(1.1);
 }
+.img-16 img  {
+       width: 171px;
+    height: 170px;
+    margin-top: 18px;
+    border-radius: 14px;
+    cursor: pointer;
+    object-fit: fill;
+     transition: transform 1s ease;
+}
+.img-16:hover img {
+  transform: scale(1.1);
+}
+/* bathroom mirror close */
+.img-container-3{
+ display: flex;
+    gap: 15px;
+    text-align: center;
+  margin-left:30px ;
+  
+}
+.img-17 img  {
+       width: 171px;
+    height: 170px;
+    margin-top: 18px;
+    border-radius: 14px;
+    cursor: pointer;
+    object-fit: fill;
+     transition: transform 1s ease;
+}
+.img-17:hover img {
+  transform: scale(1.1);
+}
+.img-18 img  {
+       width: 171px;
+    height: 170px;
+    margin-top: 18px;
+    border-radius: 14px;
+    cursor: pointer;
+    object-fit: fill;
+     transition: transform 1s ease;
+}
+.img-18:hover img {
+  transform: scale(1.1);
+}
+.img-19 img  {
+       width: 171px;
+    height: 170px;
+    margin-top: 18px;
+    border-radius: 14px;
+    cursor: pointer;
+    object-fit: fill;
+     transition: transform 1s ease;
+}
+.img-19:hover img {
+  transform: scale(1.1);
+}
+.img-20 img  {
+       width: 171px;
+    height: 170px;
+    margin-top: 18px;
+    border-radius: 14px;
+    cursor: pointer;
+    object-fit: fill;
+     transition: transform 1s ease;
+}
+.img-20:hover img {
+  transform: scale(1.1);
+}
+.img-21 img  {
+       width: 171px;
+    height: 170px;
+    margin-top: 18px;
+    border-radius: 14px;
+    cursor: pointer;
+    object-fit: fill;
+     transition: transform 1s ease;
+}
+.img-21:hover img {
+  transform: scale(1.1);
+}
+.img-22 img  {
+       width: 171px;
+    height: 170px;
+    margin-top: 18px;
+    border-radius: 14px;
+    cursor: pointer;
+    object-fit: fill;
+     transition: transform 1s ease;
+}
+.img-22:hover img {
+  transform: scale(1.1);
+}
+.img-23 img  {
+       width: 171px;
+    height: 170px;
+    margin-top: 18px;
+    border-radius: 14px;
+    cursor: pointer;
+    object-fit: fill;
+     transition: transform 1s ease;
+}
+.img-23:hover img {
+  transform: scale(1.1);
+}
+.img-24 img  {
+       width: 171px;
+    height: 170px;
+    margin-top: 18px;
+    border-radius: 14px;
+    cursor: pointer;
+    object-fit: fill;
+     transition: transform 1s ease;
+}
+.img-24:hover img {
+  transform: scale(1.1);
+}
+/* dressing mirror open */
+
 /* category page close */
 /* Base Styling */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 20px;
+   background-color: rgb(70, 253, 253);
 }
 
 .mirror-container {
@@ -235,19 +366,22 @@ h1, h2 {
 
 /* Image Container Grid */
 .img-container,
-.img-container-2 {
+.img-container-2,
+.img-container-3 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 20px;
 }
 
 .img-container div,
-.img-container-2 div {
+.img-container-2 div,
+.img-container-3 div {
   text-align: center;
 }
 
 .img-container img,
-.img-container-2 img {
+.img-container-2 img,
+.img-container-3 img {
   width: 100%;
   max-width: 250px;
   border-radius: 12px;

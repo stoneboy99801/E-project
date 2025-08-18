@@ -345,6 +345,128 @@ background-color: beige;
 }
 /* dressing mirror open */
 
+/* bedroom-mirror */
+.img-container-4{
+ display: flex;
+    gap: 15px;
+    text-align: center;
+  margin-left:30px ;
+  
+}
+.img-25 img  {
+       width: 171px;
+    height: 170px;
+    margin-top: 18px;
+    border-radius: 14px;
+    cursor: pointer;
+    object-fit: fill;
+     transition: transform 1s ease;
+}
+.img-25:hover img {
+  transform: scale(1.1);
+}
+.img-26 img  {
+       width: 171px;
+    height: 170px;
+    margin-top: 18px;
+    border-radius: 14px;
+    cursor: pointer;
+    object-fit: fill;
+     transition: transform 1s ease;
+}
+.img-26:hover img {
+  transform: scale(1.1);
+}
+.img-27 img  {
+       width: 171px;
+    height: 170px;
+    margin-top: 18px;
+    border-radius: 14px;
+    cursor: pointer;
+    object-fit: fill;
+     transition: transform 1s ease;
+}
+.img-27:hover img {
+  transform: scale(1.1);
+}
+.img-28 img  {
+       width: 171px;
+    height: 170px;
+    margin-top: 18px;
+    border-radius: 14px;
+    cursor: pointer;
+    object-fit: fill;
+     transition: transform 1s ease;
+}
+.img-28:hover img {
+  transform: scale(1.1);
+}
+.img-29 img  {
+       width: 171px;
+    height: 170px;
+    margin-top: 18px;
+    border-radius: 14px;
+    cursor: pointer;
+    object-fit: fill;
+     transition: transform 1s ease;
+}
+.img-29:hover img {
+  transform: scale(1.1);
+}
+.img-30 img  {
+       width: 171px;
+    height: 170px;
+    margin-top: 18px;
+    border-radius: 14px;
+    cursor: pointer;
+    object-fit: fill;
+     transition: transform 1s ease;
+}
+.img-30:hover img {
+  transform: scale(1.1);
+}
+.img-31 img  {
+       width: 171px;
+    height: 170px;
+    margin-top: 18px;
+    border-radius: 14px;
+    cursor: pointer;
+    object-fit: fill;
+     transition: transform 1s ease;
+}
+.img-31:hover img {
+  transform: scale(1.1);
+}
+.img-32 img  {
+       width: 171px;
+    height: 170px;
+    margin-top: 18px;
+    border-radius: 14px;
+    cursor: pointer;
+    object-fit: fill;
+     transition: transform 1s ease;
+}
+.img-32:hover img {
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* category page close */
 /* Base Styling */
 body {
@@ -367,7 +489,8 @@ h1, h2 {
 /* Image Container Grid */
 .img-container,
 .img-container-2,
-.img-container-3 {
+.img-container-3,
+.img-container-4 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 20px;
@@ -375,13 +498,15 @@ h1, h2 {
 
 .img-container div,
 .img-container-2 div,
-.img-container-3 div {
+.img-container-3 div,
+.img-container-4 div {
   text-align: center;
 }
 
 .img-container img,
 .img-container-2 img,
-.img-container-3 img {
+.img-container-3 img,
+.img-container-4 img {
   width: 100%;
   max-width: 250px;
   border-radius: 12px;

@@ -449,31 +449,13 @@ background-color: beige;
 .img-32:hover img {
   transform: scale(1.1);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* category page close */
 /* Base Styling */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 20px;
-   background-color: rgb(70, 253, 253);
+  
 }
 
 .mirror-container {
@@ -552,3 +534,105 @@ h1, h2 {
     font-size: 16px;
   }
 }
+/* product detail 1 */
+   body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fafafa;
+      color: #111;
+    }
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+    }
+    .gallery {
+      background: #fff;
+      border: 1px solid #eee;
+      border-radius: 10px;
+      padding: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .thumbs {
+      display: flex;
+      gap: 10px;
+      margin-top: 15px;
+    }
+    .thumbs img {
+      width: 22%;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .details {
+      background: #fff;
+      border: 1px solid #eee;
+      border-radius: 10px;
+      padding: 20px;
+    }
+    .details h1 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    .price {
+      font-size: 20px;
+      margin: 10px 0;
+    }
+    .price del {
+      color: #888;
+      margin-right: 10px;
+    }
+    .price span {
+      color: #e63946;
+      font-weight: bold;
+    }
+    .btns {
+      display: flex;
+      gap: 10px;
+      margin: 20px 0;
+    }
+    .btns button {
+      flex: 1;
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .btn-cart {
+      background: #111;
+      color: #fff;
+    }
+    .btn-buy {
+      background: #e63946;
+      color: #fff;
+    }
+    .tabs {
+      margin-top: 20px;
+    }
+    .tab {
+      border-top: 1px solid #eee;
+      padding: 15px 0;
+    }
+    .tab h3 {
+      margin: 0 0 10px;
+      font-size: 18px;
+    }
+    .tab p {
+      font-size: 14px;
+      line-height: 1.6;
+      color: #444;
+    }
+    @media(max-width: 768px) {
+      .container {
+        grid-template-columns: 1fr;
+      }
+    }
+/* product detil 1 cloe */
